@@ -37,8 +37,8 @@ public class Main { //Clase principal del programa
         System.out.println("Por favor proporcione la edad del alumno: ");
         edad = sc.nextInt();
         if (edad >= 0 && edad <= 100){
-             alumnos[i].setEdad(edad);
-             edadValida = true;
+            alumnos[i].setEdad(edad);
+            edadValida = true;
         }else{
             System.out.println("Edad no valida, por favor ingrese una edad entre 0 y 100");
             }
