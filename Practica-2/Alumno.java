@@ -50,7 +50,7 @@ public class Alumno {
     }
 
     public void setSexo(String sexo){
-      this.sexo = sexo;
+        this.sexo = sexo;
     }
     /**
      * Getters
@@ -73,6 +73,6 @@ public class Alumno {
     }
 
     public String getSexo(){
-      return sexo;
+        return sexo;
     }
 }
