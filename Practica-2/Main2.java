@@ -1,4 +1,4 @@
-/** Práctica 1:Fundamentos y sintaxis del lenguaje
+/** Práctica 2:Fundamentos y sintaxis del lenguaje
  * main del programa para realizar el registro de computadoras
  **/
 import java.util.Scanner;
