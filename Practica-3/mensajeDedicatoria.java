@@ -1,3 +1,12 @@
+/** Práctica 3: Utilerías y clases de uso general
+ * Código realizado por: Corona Palacios Diego André,
+ * De la Cruz Flores Natalia Michelle,
+ * Hernández Moreno Emiliano, 
+ * Martinez Barrios Aarón Rodrigo.
+ * Programa para realizar el registro de alumnos, 
+ * donde se solicita al usuario ingresar los datos de cada alumno
+ * y posteriormente se muestran en pantalla.
+ */
 import java.util.Scanner;
 import java.util.Date;
 import java.util.Calendar;
