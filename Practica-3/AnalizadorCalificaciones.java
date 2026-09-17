@@ -1,3 +1,9 @@
+/** Práctica 3: Utilerías y clases de uso general
+ * Código realizado por: Corona Palacios Diego André,
+ * De la Cruz Flores Natalia Michelle,
+ * Hernández Moreno Emiliano, 
+ * Martinez Barrios Aarón Rodrigo.
+ */
 import java.util.ArrayList;
 import java.util.Scanner;
 
