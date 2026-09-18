@@ -1,4 +1,8 @@
 /** Práctica 3: Utilerías y clases de uso general
+ * Código 2: El siguiente codigo genera el promedio con decimal
+ * y redondeado tomando en cuenta el número de calificaciones a 
+ * ingresar por el usuario.
+ * Se implemento el uso de wrappers, Autoboxing, ArrayList, For-each y Math
  * Código realizado por: Corona Palacios Diego André,
  * De la Cruz Flores Natalia Michelle,
  * Hernández Moreno Emiliano, 
