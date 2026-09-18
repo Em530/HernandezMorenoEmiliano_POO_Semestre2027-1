@@ -1,4 +1,7 @@
 /** Práctica 3: Utilerías y clases de uso general
+ * Codigo 4: El codigo recibe un nombre y fecha de nacimiento
+ * para dejar un mensaje creado por el usuario, con fecha del dia actual
+ * Se implemento el uso de StringBuffer, StringBuilder, Date y Calendar
  * Código realizado por: Corona Palacios Diego André,
  * De la Cruz Flores Natalia Michelle,
  * Hernández Moreno Emiliano, 
@@ -8,7 +11,7 @@ import java.util.Scanner;
 import java.util.Date;
 import java.util.Calendar;
 
-public class mensajeDedicatoria {
+public class MensajeDedicatoria {
 
     public static void main(String[] args) {
 
