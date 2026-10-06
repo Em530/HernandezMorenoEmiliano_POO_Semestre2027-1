@@ -1,3 +1,13 @@
+/** Práctica 4-8: Sistema de Gesti ́on de Biblioteca
+ * Código2: Clase Usuario 
+ * Código realizado por: Corona Palacios Diego André,
+ * De la Cruz Flores Natalia Michelle,
+ * Hernández Moreno Emiliano, 
+ * Martinez Barrios Aarón Rodrigo.
+ * Programa que hereda los metodos de la clase padre
+ * utilizando Varios constructores y definiendo los metodos de la clase padre y la clase hija
+ * usando varios constructores y definiendo los metodos de la clase padre y la clase hija. 
+ */
 public class Usuario extends PersonaP4{
 
     //Atributos
