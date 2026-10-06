@@ -1,3 +1,11 @@
+/** Práctica 4-8: Sistema de Gesti ́on de Biblioteca
+ * Código1: Clase Persona
+ * Código realizado por: Corona Palacios Diego André,
+ * De la Cruz Flores Natalia Michelle,
+ * Hernández Moreno Emiliano, 
+ * Martinez Barrios Aarón Rodrigo.
+ * Programa para la creación de la clase Persona, tomándola como la clase padre. 
+ */
 public abstract class PersonaP4 {
     
     //Atributos
