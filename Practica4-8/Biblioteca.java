@@ -42,7 +42,7 @@ public class Biblioteca {
             System.out.println("Error: El libro no existe en el inventario.");
             return;
         }
-        if (!libroPrestar.isDisponible()) {
+        if (!libroPrestar.getDisponible()) {
             System.out.println("Aviso: El libro ya se encuentra prestado.");
             return;
         }
@@ -112,4 +112,3 @@ public class Biblioteca {
         }
     }
 }
- 

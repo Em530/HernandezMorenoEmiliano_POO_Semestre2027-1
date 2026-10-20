@@ -15,6 +15,7 @@ public abstract class PersonaP4 {
 
     //Constructores
     public PersonaP4(){}
+    
     public PersonaP4(int id, String nombre, String correo){
         this.id = id;
         this.nombre = nombre;
