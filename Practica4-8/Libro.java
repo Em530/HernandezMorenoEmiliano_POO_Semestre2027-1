@@ -6,7 +6,7 @@
  * Martinez Barrios Aarón Rodrigo.
  * Programa que modela un libro físico, aplicando sobrecarga y variables estáticas.
  */
-public class Libro {
+public class Libro implements Prestable {
     
     // 6.1 Atributos
     private String isbn;
@@ -19,10 +19,7 @@ public class Libro {
     private static int totalLibros = 0;
 
     // 6.3 Constructores (Sobrecarga)
-    public Libro() {
-        this.disponible = true;
-        totalLibros++; // Incrementa el contador global
-    }
+    public Libro() {}
 
     public Libro(String titulo, String autor) {
         this.titulo = titulo;
@@ -45,21 +42,23 @@ public class Libro {
         return disponible;
     }
 
+    @Override
     public void prestar() {
         if (disponible) {
             disponible = false;
-            System.out.println("Éxito: El libro '" + titulo + "' ha sido prestado.");
+            System.out.println("Éxito: El libro " + titulo + "' ha sido prestado.");
         } else {
-            System.out.println("Error: El libro '" + titulo + "' ya se encuentra prestado.");
+            System.out.println("Error: El libro " + titulo + "' ya se encuentra prestado.");
         }
     }
 
+    @Override
     public void devolver() {
         if (!disponible) {
             disponible = true;
             System.out.println("Éxito: El libro '" + titulo + "' ha sido devuelto al catálogo.");
         } else {
-            System.out.println("Aviso: El libro '" + titulo + "' ya estaba disponible.");
+            System.out.println("Aviso: El libro  '" + titulo + "' ya estaba disponible.");
         }
     }
 

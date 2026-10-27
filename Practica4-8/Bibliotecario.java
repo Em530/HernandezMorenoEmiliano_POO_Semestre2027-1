@@ -33,7 +33,7 @@ public class Bibliotecario extends PersonaP4 {
     }
 
     public void eliminarLibro() {
-        System.out.println("El bibliotecario " + nombre + " ha eliminado un libro del catálogo.");
+        System.out.println("El bibliotecario " + nombre + " ha eliminado un libro del sistema.");
     }
 
     // Implementación obligatoria del método abstracto
