@@ -1,6 +1,6 @@
 /** Práctica 10: Manejo de excepciones
  * Código 1: Clase ManejoExcepcionesApp.java
- * Fecha: 15 de junio del 2024
+ * Fecha: 17 de Noviembre del 2026
  * Código realizado por: Corona Palacios Diego André,
  * De la Cruz Flores Natalia Michelle,
  * Hernández Moreno Emiliano, 
