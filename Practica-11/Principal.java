@@ -10,6 +10,7 @@
 
 // Importamos la excepción específica para detectar fechas mal escritas
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.time.format.ResolverStyle;
@@ -65,6 +66,20 @@ public class Principal {
                         System.out.print("Ingresa la hora de inicio (HH:mm, ej. 18:00): ");
                         // Leemos la hora y limpiamos espacios
                         String hora = sc.nextLine().trim();
+
+                        try {
+
+                            DateTimeFormatter formatoHora = DateTimeFormatter.ofPattern("HH:mm")
+                                .withResolverStyle(ResolverStyle.STRICT);
+
+                            LocalTime horaEvento = LocalTime.parse(hora, formatoHora);
+
+                        } catch (DateTimeParseException e) {
+
+                        System.out.println("ERROR: La hora ingresada no es valida.");
+                        System.out.println("Ejemplo de formato correcto: 18:00");
+                        break;
+                        }
 
                         // Pedimos el nombre de la empresa o persona
                         System.out.print("Nombre de la empresa o persona que reserva: ");
